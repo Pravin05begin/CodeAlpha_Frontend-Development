@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IMAGE GALLERY</h1>
+
+    <div class="full-img" id="fullImgBox">
+    <button class="btn" onclick="prev()">Prev</button>
+    <img src="g.jpg" id="fullImg">
+    <button class="btn" onclick="next()">Next</button>
+    <span onclick="closefullImg()">X</span>
+</div>
+
+
+    <div class="img-gallery">
+        <img width="230" height="180" src="h.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="g.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="f.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="e.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="d.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="c.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="b.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+        <img width="230" height="180" src="a.jpg" onclick="openfullImg(this.src)" alt="" class="fullImg">
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
